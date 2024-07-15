@@ -1,3 +1,4 @@
+//function to make thank you cards
 function writeCards(names) {
   let messages = []
   for (let i = 0; i < names.length; i++) {
@@ -6,7 +7,7 @@ function writeCards(names) {
 
   return messages
 }
-
+//function to countdown given number to 0
 function countDown(number) {
   for (let i = number; i >= 0; i--) {
   console.log(i)
